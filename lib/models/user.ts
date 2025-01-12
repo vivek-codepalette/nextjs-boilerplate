@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { SignupValidation } from '@/lib/validations/user';
 import type { SignupValidationType } from '@/lib/validations/user';
 
 const userSchema = new mongoose.Schema<SignupValidationType>({
